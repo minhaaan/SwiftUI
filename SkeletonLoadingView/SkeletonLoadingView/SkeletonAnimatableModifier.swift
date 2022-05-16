@@ -24,7 +24,7 @@ struct SkeletonAnimatableModifier: AnimatableModifier {
                 Color.white.zIndex(0)
                 
                 RoundedRectangle(cornerRadius: 8)
-                    .fill(.gray)
+                    .fill(.gray.opacity(0.5))
                     .opacity(opacity)
                     .zIndex(1)
             }.opacity(self.shouldShow ? 1 : 0)
