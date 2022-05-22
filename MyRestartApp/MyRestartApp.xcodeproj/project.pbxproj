@@ -15,12 +15,13 @@
 		E92AF28A283A601400587E0E /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E92AF288283A601400587E0E /* chimeup.mp3 */; };
 		E92AF293283A619200587E0E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92AF292283A619200587E0E /* OnboardingView.swift */; };
 		E92AF295283A619C00587E0E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92AF294283A619C00587E0E /* HomeView.swift */; };
+		E92AF297283A6C2700587E0E /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92AF296283A6C2700587E0E /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E92AF276283A5F4C00587E0E /* MyRestartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRestartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92AF279283A5F4C00587E0E /* MyRestartAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRestartAppApp.swift; sourceTree = "<group>"; };
-		E92AF27B283A5F4C00587E0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E92AF27B283A5F4C00587E0E /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		E92AF27D283A5F4D00587E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92AF280283A5F4D00587E0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E92AF287283A601400587E0E /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		E92AF28F283A613000587E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E92AF292283A619200587E0E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E92AF294283A619C00587E0E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E92AF296283A6C2700587E0E /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				E92AF278283A5F4C00587E0E /* MyRestartApp */,
 				E92AF277283A5F4C00587E0E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
 		};
 		E92AF277283A5F4C00587E0E /* Products */ = {
@@ -102,6 +105,7 @@
 		E92AF28D283A60BD00587E0E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E92AF296283A6C2700587E0E /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92AF297283A6C2700587E0E /* CircleGroupView.swift in Sources */,
 				E92AF293283A619200587E0E /* OnboardingView.swift in Sources */,
 				E92AF295283A619C00587E0E /* HomeView.swift in Sources */,
 				E92AF27C283A5F4C00587E0E /* ContentView.swift in Sources */,

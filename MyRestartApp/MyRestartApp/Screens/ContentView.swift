@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
-    
-    var body: some View {
-        ZStack {
-            if isOnboardingViewActive { OnboardingView() }
-            else { HomeView() }
-        }
+  
+  @AppStorage("onboarding") var isOnboardingViewActive: Bool = false
+  
+  var body: some View {
+    if isOnboardingViewActive {
+      OnboardingView()
+    } else {
+      HomeView()
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
